@@ -24,15 +24,17 @@ function NotFound() {
         div className = "app__header app__wrapper section__padding"
         id = "home" >
         <
-        div className = "app__wrapper_info" > { /* <SubHeading title="Chase the new flavour" /> */ } <
-        h1 class = "notfound"
-        id = "profile" > Not Found < /h1> <
+        div className = "app__wrapper_content" > { /* <SubHeading title="Chase the new flavour" /> */ } { /* <h1 class="notfound" id="profile">Not Found</h1> */ } <
         button onClick = { clickEv } > Go to Home < /button> <
-        button onClick = { clickev } > Go to Service < /button> <
-        h1 className = "app__header-h1" > Page Not Found, Sorry! < /h1> <
+        button onClick = { clickev }
+        style = {
+            { marginBottom: "1rem", marginTop: "3rem" } } > Go to Service < /button> <
+        h1 className = "headtext__cormorant"
+        style = {
+            { marginBottom: "4rem" } } > Page Not Found, Sorry! < /h1> <
         p className = "p__opensans"
         style = {
-            { margin: "1rem 0" } } >
+            { margin: "3rem" } } >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.Quis pharetra adipiscing ultrices vulputate posuere tristique.In sed odio nec aliquet eu proin mauris et. <
         /p> <
         button type = "button"

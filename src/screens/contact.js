@@ -45,10 +45,10 @@ function Contact() {
         div className = "app__bg app__wrapper section__padding"
         id = "contact" >
         <
-        div className = "app__wrapper_info" > { /* <SubHeading title="Contact" /> */ } <
-        h1 class = "contact"
-        id = "contact" > Contact < /h1> <
-        button onClick = { clickEv } > Go to Home < /button> <
+        div className = "app__wrapper_info" > { /* <SubHeading title="Contact" /> */ } { /* <h1 class="contact" id="contact">Contact</h1> */ } <
+        button onClick = { clickEv }
+        style = {
+            { marginBottom: "1rem", marginTop: "2rem" } } > Go to Home < /button> <
         button onClick = { clickev } > Go to Service < /button> <
         h1 className = "headtext__cormorant"
         style = {
